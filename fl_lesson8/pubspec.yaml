@@ -1,0 +1,30 @@
+name: fl_lesson8
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  dio: ^5.3.3
+  retrofit: 4.0.1
+  logger: any #for logging purpose
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator: "7.0.8"
+  build_runner: ">=2.3.0 <4.0.0"
+  json_serializable: ^6.7.1
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
