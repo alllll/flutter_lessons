@@ -1,0 +1,32 @@
+name: fl_lesson12
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  bloc_test: ^9.1.4
+  flutter_bloc: ^8.1.3
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  flex_color_picker: ^3.3.0
+  flutter:
+    sdk: flutter
+  get_it: ^7.6.4
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  mocktail: ^1.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
